@@ -14,12 +14,22 @@ A structured, modular cryptocurrency trading bot that interacts with the Binance
 bot/
   __init__.py
   client.py
+  exceptions.py
+  logging_config.py
   orders.py
   validators.py
-  logging_config.py
 cli.py
+ui.py
+run_sample_orders.py
+run_sample_orders_rest.py
 README.md
 requirements.txt
+.env
+market_order.log
+limit_order.log
+trading_bot.log
+__pycache__/
+
 ```
 
 
