@@ -1,0 +1,94 @@
+2026-04-22 21:45:42,894 - sample_market_order - INFO - Sample order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.001}
+2026-04-22 21:45:43,125 - sample_market_order - INFO - Sample order response: {'orderId': 13062064797, 'symbol': 'BTCUSDT', 'status': 'NEW'}
+2026-04-22 21:45:43,125 - sample_market_order - INFO - Sample order success: orderId=13062064797 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 21:45:43,129 - sample_limit_order - INFO - Sample order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'order_type': 'LIMIT', 'quantity': 0.001, 'price': 120000}
+2026-04-22 21:45:43,344 - sample_limit_order - INFO - Sample order response: {'orderId': 13062064812, 'symbol': 'BTCUSDT', 'status': 'NEW'}
+2026-04-22 21:45:43,346 - sample_limit_order - INFO - Sample order success: orderId=13062064812 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-23 16:33:01,161 - UI - INFO - UI order request summary: symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=None stopPrice=None
+2026-04-23 16:33:01,193 - bot.client - ERROR - API keys missing from environment variables
+2026-04-23 16:33:01,205 - bot.orders - ERROR - Unexpected error during order placement
+Traceback (most recent call last):
+  File "C:\Users\astro\binance\trading_bot\bot\orders.py", line 12, in place_order
+    client = BinanceFuturesClient()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\astro\binance\trading_bot\bot\client.py", line 29, in __init__
+    raise ValueError("BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.")
+ValueError: BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.
+2026-04-23 16:35:26,973 - UI - INFO - UI order request summary: symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=None stopPrice=None
+2026-04-23 16:35:26,977 - bot.client - ERROR - API keys missing from environment variables
+2026-04-23 16:35:26,979 - bot.orders - ERROR - Unexpected error during order placement
+Traceback (most recent call last):
+  File "C:\Users\astro\binance\trading_bot\bot\orders.py", line 12, in place_order
+    client = BinanceFuturesClient()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\astro\binance\trading_bot\bot\client.py", line 29, in __init__
+    raise ValueError("BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.")
+ValueError: BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.
+2026-04-23 16:35:36,049 - UI - INFO - UI order request summary: symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=None stopPrice=None
+2026-04-23 16:35:36,051 - bot.client - ERROR - API keys missing from environment variables
+2026-04-23 16:35:36,051 - bot.orders - ERROR - Unexpected error during order placement
+Traceback (most recent call last):
+  File "C:\Users\astro\binance\trading_bot\bot\orders.py", line 12, in place_order
+    client = BinanceFuturesClient()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\astro\binance\trading_bot\bot\client.py", line 29, in __init__
+    raise ValueError("BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.")
+ValueError: BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.
+2026-04-23 16:35:42,640 - UI - INFO - UI order request summary: symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=None stopPrice=None
+2026-04-23 16:35:42,640 - bot.client - ERROR - API keys missing from environment variables
+2026-04-23 16:35:42,640 - bot.orders - ERROR - Unexpected error during order placement
+Traceback (most recent call last):
+  File "C:\Users\astro\binance\trading_bot\bot\orders.py", line 12, in place_order
+    client = BinanceFuturesClient()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\astro\binance\trading_bot\bot\client.py", line 29, in __init__
+    raise ValueError("BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.")
+ValueError: BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.
+2026-04-23 16:36:25,322 - UI - INFO - UI order request summary: symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=None stopPrice=None
+2026-04-23 16:36:25,322 - bot.client - ERROR - API keys missing from environment variables
+2026-04-23 16:36:25,322 - bot.orders - ERROR - Unexpected error during order placement
+Traceback (most recent call last):
+  File "C:\Users\astro\binance\trading_bot\bot\orders.py", line 12, in place_order
+    client = BinanceFuturesClient()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\astro\binance\trading_bot\bot\client.py", line 29, in __init__
+    raise ValueError("BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.")
+ValueError: BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.
+2026-04-23 16:36:29,545 - UI - INFO - UI order request summary: symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=None stopPrice=None
+2026-04-23 16:36:29,545 - bot.client - ERROR - API keys missing from environment variables
+2026-04-23 16:36:29,545 - bot.orders - ERROR - Unexpected error during order placement
+Traceback (most recent call last):
+  File "C:\Users\astro\binance\trading_bot\bot\orders.py", line 12, in place_order
+    client = BinanceFuturesClient()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\astro\binance\trading_bot\bot\client.py", line 29, in __init__
+    raise ValueError("BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.")
+ValueError: BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.
+2026-04-23 16:36:32,530 - UI - INFO - UI order request summary: symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=None stopPrice=None
+2026-04-23 16:36:32,530 - bot.client - ERROR - API keys missing from environment variables
+2026-04-23 16:36:32,530 - bot.orders - ERROR - Unexpected error during order placement
+Traceback (most recent call last):
+  File "C:\Users\astro\binance\trading_bot\bot\orders.py", line 12, in place_order
+    client = BinanceFuturesClient()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\astro\binance\trading_bot\bot\client.py", line 29, in __init__
+    raise ValueError("BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.")
+ValueError: BINANCE_API_KEY and BINANCE_API_SECRET environment variables are required.
+2026-04-23 16:37:01,782 - UI - INFO - UI order request summary: symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=None stopPrice=None
+2026-04-23 16:37:01,782 - bot.client - INFO - Initialized Binance Futures Testnet REST client at https://testnet.binancefuture.com
+2026-04-23 16:37:01,786 - bot.orders - INFO - Sending futures order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.001, 'type': 'MARKET'}
+2026-04-23 16:37:02,252 - bot.client - INFO - Binance GET /fapi/v1/time -> 200 in 468ms
+2026-04-23 16:37:02,450 - bot.client - INFO - Binance POST /fapi/v1/order -> 200 in 204ms
+2026-04-23 16:37:02,450 - bot.orders - INFO - Futures order response: {'orderId': 13065067883, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '9gSCqoKU97Zh7aFbsVFWlt', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776942422753}
+2026-04-23 16:37:07,152 - UI - INFO - UI order request summary: symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=None stopPrice=None
+2026-04-23 16:37:07,152 - bot.client - INFO - Initialized Binance Futures Testnet REST client at https://testnet.binancefuture.com
+2026-04-23 16:37:07,152 - bot.orders - INFO - Sending futures order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.001, 'type': 'MARKET'}
+2026-04-23 16:37:07,340 - bot.client - INFO - Binance GET /fapi/v1/time -> 200 in 187ms
+2026-04-23 16:37:07,556 - bot.client - INFO - Binance POST /fapi/v1/order -> 200 in 219ms
+2026-04-23 16:37:07,556 - bot.orders - INFO - Futures order response: {'orderId': 13065068092, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'w8sr0C3fKPtQuQ6fqIMM3s', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776942427859}
+2026-04-23 16:37:18,069 - UI - INFO - UI order request summary: symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=4632.0 stopPrice=46525.0
+2026-04-23 16:37:18,069 - bot.client - INFO - Initialized Binance Futures Testnet REST client at https://testnet.binancefuture.com
+2026-04-23 16:37:18,069 - bot.orders - INFO - Sending futures order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.001, 'type': 'MARKET'}
+2026-04-23 16:37:18,271 - bot.client - INFO - Binance GET /fapi/v1/time -> 200 in 187ms
+2026-04-23 16:37:18,456 - bot.client - INFO - Binance POST /fapi/v1/order -> 200 in 172ms
+2026-04-23 16:37:18,456 - bot.orders - INFO - Futures order response: {'orderId': 13065068587, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'qXnBSQzGDCNoWEE5PV1jHg', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776942438761}
