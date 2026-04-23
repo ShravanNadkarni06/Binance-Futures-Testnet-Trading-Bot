@@ -9,6 +9,18 @@ A structured, modular cryptocurrency trading bot that interacts with the Binance
 - Logging: detailed file-based logging (`trading_bot.log`).
 - Explicit REST endpoint: direct signed REST calls to `https://testnet.binancefuture.com`.
 
+## Project Structure
+bot/
+  __init__.py
+  client.py
+  orders.py
+  validators.py
+  logging_config.py
+cli.py
+README.md
+requirements.txt
+
+
 ## Setup Steps
 
 1. No extra dependencies are required. The bot uses only the Python standard library.
