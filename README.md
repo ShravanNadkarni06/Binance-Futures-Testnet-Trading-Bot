@@ -10,15 +10,15 @@ A structured, modular cryptocurrency trading bot that interacts with the Binance
 - Explicit REST endpoint: direct signed REST calls to `https://testnet.binancefuture.com`.
 
 ## Project Structure
-bot/
-  __init__.py
-  client.py
-  orders.py
-  validators.py
-  logging_config.py
-cli.py
-README.md
-requirements.txt
+- bot/
+-  __init__.py
+-  client.py
+-  orders.py
+-  validators.py
+-  logging_config.py
+- cli.py
+- README.md
+- requirements.txt
 
 
 ## Setup Steps
